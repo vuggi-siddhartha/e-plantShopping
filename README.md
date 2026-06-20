@@ -49,9 +49,23 @@ npm run dev
 
 ## Deployment
 
+### GitHub Pages
 ```bash
+# Add base path to vite.config.js:
+# base: "/e-plantShopping",
+
+npm run build
 npm run deploy
 ```
+
+### Vercel (Recommended)
+1. Push code to GitHub
+2. Go to [vercel.com](https://vercel.com)
+3. Click "New Project"
+4. Import your GitHub repository
+5. Vercel auto-detects Vite and deploys automatically
+
+No additional configuration needed!
 
 ## Categories
 
